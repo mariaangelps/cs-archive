@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 # --- CONFIG ---
 repo_folder = "/Users/macbookpro/Library/CloudStorage/GoogleDrive-mp352@njit.edu/My Drive/cs-archive"
-source_folder = os.path.join(repo_folder, "CS")  # The full CS folder is now inside the repo
+source_folder = os.path.join(repo_folder, "CS")  # Your full CS folder inside the repo
 branch = "main"
 remote = "origin"
 
@@ -14,7 +14,7 @@ all_files = []
 for root, _, files in os.walk(source_folder):
     for f in files:
         full_path = os.path.join(root, f)
-        rel_path = os.path.relpath(full_path, start=repo_folder)  # Include CS/ in path
+        rel_path = os.path.relpath(full_path, start=repo_folder)  # Includes "CS/" prefix
         all_files.append((full_path, rel_path))
 
 # --- Sort for consistency ---
@@ -28,6 +28,15 @@ already_committed = set()
 if os.path.exists(progress_file):
     with open(progress_file, "r") as f:
         already_committed = set(f.read().splitlines())
+
+# --- Print stats ---
+total_files = len(all_files)
+uploaded_files = len(already_committed)
+remaining = total_files - uploaded_files
+
+print(f"\n📁 Archivos totales: {total_files}")
+print(f"🚀 Ya subidos: {uploaded_files}")
+print(f"⏳ Quedan por subir: {remaining}\n")
 
 # --- Upload one file ---
 for full_path, rel_path in all_files:
@@ -52,10 +61,12 @@ for full_path, rel_path in all_files:
 
     subprocess.run(["git", "push", remote, branch], cwd=repo_folder, check=True)
 
-    print(f"✅ Committed and pushed: {rel_path} — {commit_time}")
+    print(f"✅ Subido hoy: {rel_path} — {commit_time}")
 
     # Save progress
     with open(progress_file, "a") as f:
         f.write(rel_path + "\n")
 
     break  # Only one file per run
+else:
+    print("🎉 ¡Todo subido! No quedan más archivos por ahora.")
