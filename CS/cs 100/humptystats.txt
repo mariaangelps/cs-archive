@@ -1,0 +1,4 @@
+Words: 6, Consonants: 16, Punctuation: 1
+Words: 6, Consonants: 18, Punctuation: 1
+Words: 9, Consonants: 24, Punctuation: 2
+Words: 5, Consonants: 19, Punctuation: 2

@@ -1,0 +1,14 @@
+def file_copy(in_file,out_file):
+    ifile = open(in_file,'rt')
+    outfile = open(out_file,'w' )
+    lines = infile. readlines ()
+    a = ''
+    for line in lines:
+        x+= line
+    ofile.write(x)
+    ifile.close ()
+    ofile.close ()
+
+
+file1= '/Users/macbookpro/Desktop/codigo cs/HW9 MARIA PALACIOS CS100-008.py ='
+file2= '/Users/macbookpro/Desktop/codigo cs/HW9 MARIA PALACIOS CS100-008copy.py ='

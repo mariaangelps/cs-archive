@@ -1,0 +1,208 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TestDog",
+            "request": "launch",
+            "mainClass": "common2.TestDog",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "TestBook",
+            "request": "launch",
+            "mainClass": "TestBook",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "AccesoDeEncapsulacion",
+            "request": "launch",
+            "mainClass": "AccesoDeEncapsulacion",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "LlamarObjetos",
+            "request": "launch",
+            "mainClass": "LlamarObjetos",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "DemoMetodos",
+            "request": "launch",
+            "mainClass": "DemoMetodos",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "DemoScanner",
+            "request": "launch",
+            "mainClass": "DemoScanner",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "MetodoWhile",
+            "request": "launch",
+            "mainClass": "MetodoWhile",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "Operadores",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "HolaMari",
+            "request": "launch",
+            "mainClass": "HolaMari",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BookProg",
+            "request": "launch",
+            "mainClass": "BookProg",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "DieProg",
+            "request": "launch",
+            "mainClass": "DieProg",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "DieTest",
+            "request": "launch",
+            "mainClass": "DieTest",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "Grades",
+            "request": "launch",
+            "mainClass": "Grades",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "LuckyNumbers",
+            "request": "launch",
+            "mainClass": "LuckyNumbers",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "MyProgram",
+            "request": "launch",
+            "mainClass": "MyProgram",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "NameApp",
+            "request": "launch",
+            "mainClass": "NameApp",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "Paint",
+            "request": "launch",
+            "mainClass": "Paint",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "RandomPlate",
+            "request": "launch",
+            "mainClass": "RandomPlate",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "RightTriangle",
+            "request": "launch",
+            "mainClass": "RightTriangle",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "RollingDice",
+            "request": "launch",
+            "mainClass": "RollingDice",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "StringPlay",
+            "request": "launch",
+            "mainClass": "StringPlay",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "Temperature",
+            "request": "launch",
+            "mainClass": "Temperature",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "TestDie",
+            "request": "launch",
+            "mainClass": "TestDie",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "WhileTest",
+            "request": "launch",
+            "mainClass": "WhileTest",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "WhileTestDie",
+            "request": "launch",
+            "mainClass": "WhileTestDie",
+            "projectName": "cs113_8873446c"
+        },
+        {
+            "type": "java",
+            "name": "time",
+            "request": "launch",
+            "mainClass": "time",
+            "projectName": "cs113_8873446c"
+        }
+    ]
+}
